@@ -1,3 +1,41 @@
+.common-button a{
+    text-decoration: none;
+    background: #4CAF4F;
+    padding: 14px 32px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    font-family: "Inter", sans-serif;
+    border: 1px solid transparent;
+    transition: .5s;
+    display: inline-block;
+}
+.common-button a:hover{
+    background: transparent;
+    color: #4CAF4F;
+    border-color: #4CAF4F;
+}
+.title{
+    text-align: center;
+}
+.title h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #4D4D4D;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 8px;
+}
+.title p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #717171;
+    font-family: "Inter", sans-serif;
+}
+.box{
+    display: flex;
+}
+
 nav{
     background: #F5F7FA;
 }
@@ -14,6 +52,7 @@ nav{
     border: 1px solid transparent;
     transition: .5s;
     margin-left: 10px;
+    display: inline-block;
 }
 .navber-button a:hover{
     background: transparent;
@@ -31,3 +70,31 @@ nav{
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
+.Banner{
+     background: #F5F7FA;
+     padding: 96px 0;
+}
+.Banner h1{
+    font-size: 64px;
+    font-weight: 600;
+    color: #4D4D4D;
+    font-family: "Inter", sans-serif;
+}
+.Banner span{
+    color: #4CAF4F;
+}
+.Banner p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #717171;
+    font-family: "Inter", sans-serif;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+.client{
+    padding: 40px 0;
+}
+.client .box{
+    justify-content: space-between;
+    padding: 41px 0;
+} 
