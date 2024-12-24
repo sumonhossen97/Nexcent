@@ -1,0 +1,33 @@
+nav{
+    background: #F5F7FA;
+}
+
+.navber-button a{
+    text-decoration: none;
+    background: #4CAF4F;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    font-family: "Inter", sans-serif;
+    border: 1px solid transparent;
+    transition: .5s;
+    margin-left: 10px;
+}
+.navber-button a:hover{
+    background: transparent;
+    color: #4CAF4F;
+    border-color: #4CAF4F;
+}
+.navbar-nav{
+    column-gap: 50px;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 400;
+    color: #18191F;
+    font-family: "Inter", sans-serif;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
