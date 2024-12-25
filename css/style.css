@@ -142,4 +142,56 @@ margin-top: 17px;
 .community .card .card-body{
     padding: 0 !important;
 }
-
+.pixel-grade{
+    padding: 52px 0;
+}
+.pixel-grade .title{
+    text-align: left;
+}
+.pixel-grade .title p{
+    padding-bottom: 24px;
+}
+.business{
+    padding: 84px 0;
+    margin: 48px 0;
+    background: #F5F7FA;
+}
+.business .title{
+    text-align: left;
+}
+.business .title h2 span{
+    color: #4CAF4F;
+}
+.business .title h2{
+    width: 390px;
+}
+.business .box{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 40px;
+}
+.business .payment-box{
+    width: 48%;
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    
+}
+.business .payment-box h4{
+    font-size: 28px;
+    font-weight: 700;
+    color: #4D4D4D;
+    font-family: "Inter", sans-serif;
+}
+.business .payment-box p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #717171;
+    font-family: "Inter", sans-serif;
+}
+.design .title{
+    text-align: left;
+}
+.design .title p{
+    padding-bottom: 24px;
+}
