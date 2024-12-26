@@ -293,3 +293,76 @@ box-shadow: -4px 7px 15px -5px rgba(0,0,0,0.4);
 .marketing .card .overly h5 i{
     margin-left: 10px;
 }
+.details .common-button{
+    padding: 32px;
+}
+.details{
+    background: #F5F7FA;
+}
+.details .common-button i{
+    margin-left: 8px;
+}
+.details .suscipit{
+    text-align: center;
+}
+.details .suscipit h2{
+    font-size: 64px;
+    font-weight: 600;
+    color: #263238;
+    font-family: "Inter", sans-serif;
+    width: 887px;
+    margin: 0 auto;
+}
+.footer{
+    background: #263238;
+    padding-top: 64px;
+    padding-bottom: 75px;
+}
+.footer .logo-part h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: #F5F7FA;
+    font-family: "Inter", sans-serif;
+    padding-top: 40px;
+    padding-bottom: 8px;
+}
+.footer .logo-part h6{
+    font-size: 14px;
+    font-weight: 400;
+    color: #F5F7FA;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 40px;
+}
+.footer .social-media ul{
+    column-gap: 24px;
+    display: flex;
+    color: #FFFFFF;
+    list-style: none;
+    padding: 0;
+    font-size: 24px;
+}
+.footer .user h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 24px;
+}
+.footer .user ul{
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    list-style: none;
+}
+.footer .user ul li{
+    padding-bottom: 12px;
+}
+.footer .user h4{
+    padding-bottom: 24px;
+}
+.footer .user span{
+    border: none;
+    background: rgba(255, 255, 255, .20);
+}
