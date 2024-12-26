@@ -236,3 +236,60 @@ margin-top: 17px;
     margin-left: 10px;
     margin-top: 8px;
 }
+.marketing .title p{
+    width: 628px;
+    margin: 0 auto;
+    padding-bottom: 16px;
+}
+.marketing .card{
+    border: 0;
+}
+.marketing .card img{
+    width: 100%;
+    border-radius: 8px;
+}
+.marketing .card .image-part{
+    padding-bottom: 80px;
+    position: relative;
+    overflow: hidden;
+}
+.marketing .card .overly {
+    background: #F5F7FA;
+    width: 317px;
+    height: 176px;
+    border-radius: 8px;
+    position: absolute;
+    top: -48%;
+    left: 40px;
+    -webkit-box-shadow: -4px 7px 15px -5px rgba(0,0,0,0.4);
+-moz-box-shadow: -4px 7px 15px -5px rgba(0,0,0,0.4);
+box-shadow: -4px 7px 15px -5px rgba(0,0,0,0.4);
+    transition: .8s;
+
+}
+.marketing .card .image-part:hover .overly{
+        top: 220px;
+        left: 47px;
+        
+}
+
+.marketing .card h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #717171;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    width: 285px;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+.marketing .card .overly h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #4CAF4F;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+.marketing .card .overly h5 i{
+    margin-left: 10px;
+}
