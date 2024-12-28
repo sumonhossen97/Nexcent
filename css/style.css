@@ -290,6 +290,16 @@ box-shadow: -4px 7px 15px -5px rgba(0,0,0,0.4);
     font-family: "Inter", sans-serif;
     text-align: center;
 }
+.marketing .card .overly h5:hover{
+    background: rgba(76, 175, 79, .50);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", serif;
+    padding: 14px 10px;
+    border-radius: 4px;
+    margin-top: 12px;
+}
 .marketing .card .overly h5 i{
     margin-left: 10px;
 }
