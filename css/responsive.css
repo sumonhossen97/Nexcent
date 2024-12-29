@@ -434,10 +434,10 @@
         left: 15%;
     }
     .marketing .card .image-part:hover .overly{
-        width: 75%;
+        width: 70%;
         height: 105px;
-        top: 50%;
-        left: 52px;
+        top: 54%;
+        left: 15%;
     }
     .marketing .card h4 {
         font-size: 14px;
