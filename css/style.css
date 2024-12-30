@@ -255,12 +255,12 @@ margin-top: 17px;
 }
 .marketing .card .overly {
     background: #F5F7FA;
-    width: 317px;
-    height: 176px;
+    width: 78%;
+    height: 40%;
     border-radius: 8px;
     position: absolute;
     top: -48%;
-    left: 40px;
+    left: 11%;
     -webkit-box-shadow: -4px 7px 15px -5px rgba(0,0,0,0.4);
 -moz-box-shadow: -4px 7px 15px -5px rgba(0,0,0,0.4);
 box-shadow: -4px 7px 15px -5px rgba(0,0,0,0.4);
@@ -279,9 +279,9 @@ box-shadow: -4px 7px 15px -5px rgba(0,0,0,0.4);
     color: #717171;
     font-family: "Inter", sans-serif;
     text-align: center;
-    width: 285px;
     margin: 0 auto;
     padding: 16px 0;
+    width: 285px;
 }
 .marketing .card .overly h5{
     font-size: 20px;
@@ -289,16 +289,6 @@ box-shadow: -4px 7px 15px -5px rgba(0,0,0,0.4);
     color: #4CAF4F;
     font-family: "Inter", sans-serif;
     text-align: center;
-}
-.marketing .card .overly h5:hover{
-    background: rgba(76, 175, 79, .50);
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: "Inter", serif;
-    padding: 14px 10px;
-    border-radius: 4px;
-    margin-top: 12px;
 }
 .marketing .card .overly h5 i{
     margin-left: 10px;

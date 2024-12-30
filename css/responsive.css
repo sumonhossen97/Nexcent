@@ -495,7 +495,7 @@
         margin: 0 auto;
     }
 }
-@media (min-width:768px) and (max-width:991px){
+@media (min-width:768px) and (max-width:991.99px){
     .navbar-brand img{
         width: 190px;
     }
@@ -754,4 +754,28 @@
         width: 56%;
         margin: 0 auto;
     }
+}
+@media (min-width:992px) and (max-width:1199.99px){
+    .navbar-nav {
+        column-gap: 32px;
+    }
+    .customer .customer-banner img{
+        width: 90%;
+    }
+    .customer .cp-1 {
+        width: 640px;
+    }
+}
+@media (min-width:1200px) and (max-width:1399.99px){
+    .marketing .card h4 {
+        font-size: 18px;
+    }
+    .marketing .card .overly h5 {
+        font-size: 18px;
+    }
+    .marketing .card .image-part:hover .overly{
+        top: 204px;
+        left: 47px;
+        
+}
 }
